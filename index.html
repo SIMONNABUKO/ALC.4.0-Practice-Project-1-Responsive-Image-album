@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirobi City</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    
+
+    <div class="albums">
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n1.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi aerial view</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi aerial view</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n2.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi evening</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi evening</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n3.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi aerial view</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi aerial view</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n4.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi river</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi river</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n5.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi sunrise</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi at sunrise</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+                <img src="/img/n6.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi at night</em>
+                </figcaption>
+            </div>
+            <div class="album--description">
+                <h3>Nairobi at night</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+        <div class="album">
+            <div class="album--work">
+
+                <img src="/img/n7.jpg" alt="">
+                <figcaption class="hide caption">
+                    <em>Nairobi golf-course</em>
+                </figcaption>
+
+
+            </div>
+            <div class="album--description">
+
+                <h3>Nairobi golf-course</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam accusantium porro, alias magnam nulla assumenda, harum officiis perferendis fugiat nemo eaque sit, vel, autem atque error. Blanditiis odio eveniet lauda dolor.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        
+        (function init(){
+
+    var figcaption = document.getElementsByTagName('figcaption');
+
+    for(var i=0; i<figcaption.length; i++){
+      figcaption[i].onmouseover = (function(){
+      this.removeClass("hide");
+      })(i);
+    }
+  })();
+        
+//       (function init()
+//        {document.querySelectorAll('.album--work').onmouseover=function(){
+//           document.getElementsByClassName('caption').removeClass("hide");
+//        }
+//        document.querySelectorAll('.album--work').onmouseout =function(){
+//           document.getElementsByClassName('caption').addClass("hide");
+//        }
+//        })();
+        
+    </script>
+    
+    <script src="js/script.js"></script>
+</body></html>

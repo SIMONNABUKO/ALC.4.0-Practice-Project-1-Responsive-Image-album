@@ -1,0 +1,30 @@
+body{
+    background-color: lightgray;
+  
+}
+.albums{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+.album{
+    display: grid;
+    background-color: #eee;
+    
+    grid-gap: 5px;
+    grid-template-columns:150px, 1fr;
+    align-items: center;
+    padding: 20px;
+}
+.album--work>img{
+width: 100%;
+    
+}
+figcaption{
+    background: lime;
+    color: black;
+    
+}
+.hide{
+    visibility:hidden;
+}
